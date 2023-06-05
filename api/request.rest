@@ -1,0 +1,16 @@
+GET http://localhost:3000/todos
+###
+
+
+POST http://localhost:3000/todos/new
+Content-Type: application/json
+
+{
+    "text":"go to slleo"
+}
+###
+
+DELETE  http://localhost:3000/todos/delete/647e3d338ba6e3ec99fe7e60
+
+###
+PUT  http://localhost:3000/todos/completed/647e3d428ba6e3ec99fe7e62
